@@ -9,7 +9,6 @@ body {
 	height: 50px;
 	left: 50px;
 	top: 50px;
-	opacity: 0;
 	color: #fff;
 }
 
@@ -20,7 +19,6 @@ body {
 	height: 50px;
 	left: 175px;
 	top: 50px;
-	opacity: 0;
 	color: #fff;
 }
 
@@ -31,6 +29,5 @@ body {
 	height: 50px;
 	left: 300px;
 	top: 50px;
-	opacity: 0;
 	color: #fff;
 }

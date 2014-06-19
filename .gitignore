@@ -1,1 +1,4 @@
 /node_modules
+/src/js/vendor
+..grunt
+.grunt/grunt-gh-pages/gh-pages/src/

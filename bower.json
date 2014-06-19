@@ -1,0 +1,11 @@
+{
+  "name": "VelocityDemo",
+  "version": "0.0.2",
+  "authors": [
+    "Chase Moody <cmoody06@gmail.com.com>"
+  ],
+  "dependencies": {
+  	"jquery": "latest",
+    "velocity": "0.1.x"
+  }
+}

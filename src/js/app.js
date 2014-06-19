@@ -3,11 +3,17 @@ $.easing["myCustomEase"] = function(p) {
     return 1 - (Math.cos(p * -20 * Math.PI) * Math.exp(-p * 2));
 };
 
+// $.easing["spring"] = function(p) {
+//     return 1 - (Math.cos(p * 4.5 * Math.PI) * Math.exp(-p * 6));
+// };
+
+// latest update might be
+// velocity.Easings["spring"] = function(p) {}
+
 $('.box').velocity(
 	{
 		translateY: [0, 50],
 		translateX: [0, 50],
-		opacity: 1
 	}, 
 	{
 		duration: 1000, 
@@ -21,7 +27,6 @@ $('.box2').velocity(
 	{
 		translateY: [0, 50],
 		translateX: [0, 50],
-		opacity: 1
 	}, 
 	{
 		duration: 1000, 
@@ -35,7 +40,6 @@ $('.box3').velocity(
 	{
 		translateY: [0, 50],
 		translateX: [0, 50],
-		opacity: 1
 	}, 
 	{
 		duration: 1000, 
